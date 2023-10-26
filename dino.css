@@ -41,14 +41,14 @@ background-color: skyblue;
 
 
    #character {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     background: url('https://i.ibb.co/VtY0mq2/big-head-carnegie-skating-removebg-preview.png');
     background-size: contain;
     position: absolute;
-    bottom: -12px;
+    bottom: -18px;
     opacity: 100%;
     left: 100px;
    }
