@@ -1,0 +1,184 @@
+
+html {
+
+    background-color: skyblue;
+}
+
+
+#game {
+    width: 100%;
+    height: 450px;
+    
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    
+   }
+
+   
+   #game::before {    
+    content: "";
+    background-image: url('https://i.ibb.co/mc8Dwp1/i-Stock-1213403357.jpg');
+    background-size: 100% 100%;;
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 50%;
+    background-repeat: repeat-x;
+    animation: scroll 10s linear infinite;
+
+   }
+
+   @keyframes scroll{
+    to {
+        background-position: -1200px 0;
+      }
+  }
+
+
+   #character {
+    width: 120px;
+    height: 120px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: url('https://i.ibb.co/VtY0mq2/big-head-carnegie-skating-removebg-preview.png');
+    background-size: contain;
+    position: absolute;
+    bottom: -12px;
+    opacity: 100%;
+    left: 100px;
+   }
+
+  #characterFallen {
+
+    width: 120px;
+    height: 120px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: url('https://i.ibb.co/VtY0mq2/big-head-carnegie-skating-removebg-preview.png');
+    background-size: contain;
+    position: absolute;
+    bottom: -12px;
+    opacity: 100%;
+    left: 100px;
+    transform: rotate(90deg);
+
+  }
+
+
+
+   #cloud {
+    width: 100px;
+    height: 90px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    background: url('https://i.ibb.co/TrcpD2x/k34i37e8ht32nil4jli6hsv7js.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+    animation: float 3.5s infinite;
+    animation-timing-function: linear;   
+   }
+
+   @keyframes float {
+    0%{left: -1380px;}
+    100%{left: -100px;}
+   }
+
+   #cloud2 {
+    width: 70px;
+    height: 55px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    background: url('https://i.ibb.co/TrcpD2x/k34i37e8ht32nil4jli6hsv7js.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+    animation: float 3.3s infinite;
+    animation-timing-function: linear;   
+   }
+
+   @keyframes float {
+    0%{left: 1380px;}
+    100%{left: -100px;}
+   }
+
+   #cloud3 {
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    background: url('https://i.ibb.co/TrcpD2x/k34i37e8ht32nil4jli6hsv7js.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+    animation: float 6.3s infinite;
+    animation-timing-function: linear;   
+   }
+
+
+   #block {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    padding: 0 0 0 0;
+    bottom: -9px;
+    left: 480px;
+    background: url('https://i.ibb.co/McTCnNC/pngegg-1.png');
+  background-size: contain;
+  
+   }
+
+   #block {
+    width: 125px;
+    height: 60px;
+    padding: 0 0 0 0;
+    position: absolute;
+    bottom: 0px;
+    left: 1380px;
+    background: url('https://i.ibb.co/McTCnNC/pngegg-1.png');
+  background-size: contain;
+    animation: slide 2.5s infinite;
+    animation-timing-function: linear;
+    margin: 0%;
+    
+    
+   }
+   @keyframes slide {
+    0%{left: 1380px;}
+    100%{left: -40px;}
+   }
+
+   .animate{
+    animation: jump 1s;
+    animation-timing-function: ease-out;
+   }
+   @keyframes jump {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    80%{top: 100px;}
+    90% {top: 120px;}
+    100%{top: 150px;}
+
+   
+    }
+   
+
+   h2 {
+
+    font-size: 65px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0%;
+   }
+
+   h3 {
+
+    font-size: 20px;
+    text-align: center;
+   }
