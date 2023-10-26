@@ -1,21 +1,6 @@
 
 html {
-background-image: linear-gradient(
-  0deg,
-  hsl(200deg 72% 57%) 0%,
-  hsl(200deg 70% 58%) 9%,
-  hsl(199deg 69% 59%) 18%,
-  hsl(199deg 68% 60%) 27%,
-  hsl(198deg 66% 61%) 35%,
-  hsl(198deg 65% 61%) 44%,
-  hsl(197deg 64% 62%) 53%,
-  hsl(199deg 64% 56%) 61%,
-  hsl(200deg 67% 49%) 70%,
-  hsl(200deg 100% 39%) 78%,
-  hsl(204deg 100% 38%) 86%,
-  hsl(208deg 100% 36%) 94%,
-  hsl(213deg 93% 34%) 100%
-);
+background-color: #skyblue; 
 }
 
 
